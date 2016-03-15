@@ -4,7 +4,7 @@ This document is a primer on core concepts and workflows adopted by front-end de
 
 ## What is a front-end application?
 
-A front-end application is a graphical user interface consumed by actual end users. Technically it is a standalone server-agnostic JavaScript, HTML and CSS bundle that functions independently and, if needed, communicates with back-end services via HTTP or WebSockets.
+A front-end application is a graphical user interface consumed by actual end users. Technically it is a standalone server-agnostic JavaScript, HTML and CSS bundle that functions independently and, if needed, communicates with back-end services via HTTP or [WebSockets](http://www.html5rocks.com/en/tutorials/websockets/basics/).
 
 Web applications have traditionally been monolithic server-side systems (commonly written in PHP, Ruby or Python) that implemented the entire application architecture as a single server-side model. This meant that database connections, data models, business logic, HTML, CSS, JavaScript as well as any third-party integrations had to be tightly coupled under a single umbrella. Furthermore, from an end user’s point of view, it only provided a single entry into the application: through a web browser.
 
