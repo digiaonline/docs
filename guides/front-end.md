@@ -144,14 +144,12 @@ package.json
 
 ```json
 {
-  ...
   "scripts": {
     "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server"
   },
   "devDependencies": {
     "webpack-dev-server": "^1.14.1"
   }
-  ...
 }
 ```
 
