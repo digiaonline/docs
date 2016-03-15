@@ -78,35 +78,36 @@ npm install gulp --save-dev
 ## Project structure
 
 ```
-assets/
-  background.jpg
-  logo.png
-src/
-  common/
-    services/
-      auth-service.js
-    styles/
-      _typography.scss
-  components/
-    navbar/
-      navbar.js
-      _navbar.scss
-    login-page/
-      login-page.js
-      _login-page.scss
-  config/
-    api.js
-  index.js
-  index.scss
-dist/
-  bundle.css
-  bundle.js
-  index.html
-.editorconfig
-.eslintrc
-.gitignore
-package.json
-README.md
+.
+├── assets
+│   ├── background.jpg
+│   └── logo.png
+├── dist
+│   ├── bundle.css
+│   ├── bundle.js
+│   └── index.html
+├── src
+|   ├── common
+|   │   ├── services
+|   │   │   └── auth-service.js
+|   │   └── styles
+|   │       └── _typography.scss
+|   ├── components
+|   │   ├── login-page
+|   │   │   ├── _login-page.scss
+|   │   │   └── login-page.js
+|   │   └── navbar
+|   │       ├── _navbar.scss
+|   │       └── navbar.js
+|   ├── config
+|   │   └── api.js
+|   ├── index.js
+|   └── index.scss
+├── .editorconfig
+├── .eslintrc
+├── .gitignore
+├── package.json
+└── README.md
 ```
 
 A front-end project should contain at least two key directories: `src` and `dist`, referring to *source* and *distribution*, respectively. The source directory is where we save the code we’ve written, whereas the distribution directory contains the final executable code after compiling and building the application from source. You should not add `dist` to version control. An additional `assets` directory may be created to house images, fonts, audio files, and other presentational resources.
@@ -141,7 +142,7 @@ Scripts should only reference local npm modules that are included as dependencie
 
 package.json
 
-```
+```json
 {
   ...
   "scripts": {
@@ -202,7 +203,7 @@ When writing a docblock comment for a function, ask yourself whether the functio
 
 Consider the following function variations:
 
-```
+```javascript
 /**
  * Fetches blog posts by a user.
  */
