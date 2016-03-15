@@ -39,7 +39,7 @@ Please ask Niklas to create the following accounts for you:
 - Toggl
 - 1Password (license)
 
-Optional
+Optional:
 
 - PHPStorm (license)
 
