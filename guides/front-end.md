@@ -116,11 +116,15 @@ Files and directories in src should be written in kebab-case and all lowercase l
 
 ## Bower vs npm
 
-Bower was traditionally used by front-end projects.
+Bower was formerly used by front-end projects.
 
 npm is used by Node and Webpack-based projects.
 
-Generally speaking, Bower is used by older JavaScript applications where separate source files are simply concatenated to form a single bundle. Bower modules utilize global variables to communicate with each other. Please use Bower only if you’re working on an existing project that’s built on top of Bower. Also note that Bower-based applications typically also contain a package.json file (npm’s manifest) for managing developer tool dependencies.
+Generally speaking, Bower is used by older JavaScript applications where separate source files are simply concatenated to form a single bundle. Bower components utilize global variables to communicate with each other. Please use Bower only if you’re working on an existing project that already uses Bower. Note that Bower-based applications also typically contain a package.json file (npm’s manifest) for managing developer tool dependencies.
+
+Owing to the popularity of Webpack and Browserify, npm has become the go-to package manager for front-end applications as well. The universalization of npm modules now allows front-end developers to embrace the same conveniences that have made the Node ecosystem great. The encapsulated nature of modules brings greater clarity and improved structure to applications.
+
+If you're starting a new project, you should use npm.
 
 ## Typical development workflow
 
