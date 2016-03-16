@@ -138,7 +138,7 @@ git push origin master
 npm run deploy
 ```
 
-## Starting the development server
+## Starting a development server
 
 Every project should include a *start* script that lifts up a development environment when a developer executes `npm start` on the command-line.
 
