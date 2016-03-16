@@ -193,7 +193,7 @@ Issuing a commit is like taking a snapshot of the changes you’ve made. You han
 Commits can be browsed and “time-traveled” to when needed. So instead of arbitrarily modifying a shared folder in Dropbox, you’ll be able to preserve and visualize the entire history and evolution of your codebase since its inception.
 
 Another therapeutic feature of version control systems is that they allow you to create branches. Branches are used for isolating portions of code and preventing them from causing side effects in other parts of the codebase while still in development.
-While projects may employ various branching models, the general idea is to have a stable branch called the *master* branch. This is the main branch that contains the most up-to-date stable version of the project. All unfinished bits of code must be kept out of the master branch, and every contributor should strive to keep it in a working (i.e. unbroken) state. Unfinished code should reside in a separate topic branch.
+While projects may employ various branching models, the general idea is to have a stable branch called a *master* branch. This is the main branch that contains the most up-to-date stable version of the project. All unfinished bits of code must be kept out of the master branch, and every contributor should strive to keep it in a working (i.e. unbroken) state. Unfinished code should reside in a separate topic branch.
 
 I advise you to keep your commits compact. Bugs are harder to isolate and debug when time-traveling between massive commits. Smaller and more focused commit messages are also easier to scan visually. A lengthier and more descriptive timeline usually beats a shorter and nebulous one.
 
