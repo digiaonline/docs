@@ -32,7 +32,7 @@ As a result, consumer use cases (e.g. requesting the most popular blog posts or 
 
 ## Accounts and licenses
 
-Please ask Niklas to create the following accounts for you:
+Please ask Raisa to create the following accounts for you:
 
 - Gmail
 - Slack
