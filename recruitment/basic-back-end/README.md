@@ -7,7 +7,7 @@ Before starting, please read carefully through the instructions below. You are f
 Your task is to create a small application that meets the following requirements:
 
 - Create a MySQL table called `person` that contains the following columns: **id** (auto-increment), **name** (varchar), **gender** (enum), **age** (int)
-- Write a PHP script that connects to the database and outputs all `person` entries as JSON.
+- Write a PHP script that connects to the database and outputs all entries as JSON.
 - Write a PHP script that inserts a new person into the table based on POST data and outputs all entries (incl. the new person) as JSON.
 - Write a PHP script that deletes an existing person from the table based on their `id` and outputs all the remaining entries as JSON.
 
