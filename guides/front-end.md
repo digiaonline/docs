@@ -253,3 +253,4 @@ Hosting is a decision that should take the rest of the application architecture 
 - [Egghead.io](https://egghead.io) Plenty of bite-sized React and Redux tutorials
 - [JavaScript Weekly](http://javascriptweekly.com) A weekly email round-up of JavaScript news and articles
 - [JavaScript Air](https://javascriptair.com) A podcast about all things JavaScript
+- [Essential JavaScript Links](https://github.com/ericelliott/essential-javascript-links) curated by Eric Elliott
