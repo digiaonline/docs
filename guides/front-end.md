@@ -249,5 +249,5 @@ Hosting is a decision that should take the rest of the application architecture 
 
 ## Great resources
 
-[react-starter](https://github.com/nordsoftware/react-starter) A template for jump-starting a React project
-[Egghead.io](https://egghead.io) Plenty of bite-sized React and Redux tutorials
+- [react-starter](https://github.com/nordsoftware/react-starter) A template for jump-starting a React project
+- [Egghead.io](https://egghead.io) Plenty of bite-sized React and Redux tutorials
