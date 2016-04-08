@@ -246,3 +246,8 @@ TL;DR: Deploy often. Deploy small. Fix more often but on a smaller scale.
 A front-end application should be a server-agnostic bundle that can be served by any HTTP server or service.
 
 Hosting is a decision that should take the rest of the application architecture into consideration. Most of our front-end applications are served statically over a CDN like Amazon S3.
+
+## Great resources
+
+[react-starter](https://github.com/nordsoftware/react-starter) A template for jump-starting a React project
+[Egghead.io](https://egghead.io) Plenty of bite-sized React and Redux tutorials
