@@ -112,7 +112,7 @@ npm install gulp --save-dev
 
 A front-end project should contain at least two key directories: `src` and `dist`, referring to *source* and *distribution*, respectively. The source directory is where we save the code we’ve written, whereas the distribution directory contains the final executable code after compiling and building the application from source. You should not add `dist` to version control. An additional `assets` directory may be created to house images, fonts, audio files, and other presentational resources.
 
-Files and directories in src should be written in kebab-case and all lowercase letters (e.g. `auth-service.js` but not `AuthService.js`), with the exception of partial SCSS files that require a leading underscore. Naming all files and directories in all lowercase letters eliminates conflicts when renaming versioned files and switching between lowercase and uppercase characters.
+Files and directories in `src` should be written in kebab-case and all lowercase letters (e.g. `auth-service.js` but not `AuthService.js`), with the exception of partial SCSS files that require a leading underscore. Naming all files and directories in all lowercase letters eliminates conflicts when renaming versioned files and switching between lowercase and uppercase characters.
 
 ## Bower vs npm
 
