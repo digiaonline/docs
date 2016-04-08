@@ -182,7 +182,7 @@ It should work like so:
 
 Most configurations also contain various types of sensitive data such as database passwords and API keys. It’s important that not a single piece of sensitive information should ever end up in a repository. The decision to open-source a codebase may entail unintentionally publishing a set of credentials and compromising an entire service and the privacy of customers.
 
-Configuration data should be stored in environment variables (or in unversioned local configuration files) that can be accessed by build tools (e.g. Webpack or Gulp) to assemble the application. The build tool will then pull out the correct variables depending on whether you’re creating a local or production build. Front-end applications typically use an `.env` file for declaring environment variables.
+Configuration data should be stored in environment variables (or in unversioned local configuration files) that can be accessed by build tools (e.g. Webpack or Gulp) to assemble the application. The build tool will then pull out the correct variables depending on whether you’re creating a local or production build. Front-end applications typically use a `.env` file for declaring environment variables.
 
 ## Version control
 
