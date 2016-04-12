@@ -10,6 +10,8 @@
 
 Arming the security system requires your personal 4-digit passcode. The same code is used for disarming the alarm when entering the office.
 
+If you do not have a passcode, please request one from Raisa.
+
 ## What to do when you’ve triggered the security alarm by mistake
 
 Call the phone number posted above the alarm interface and tell the security officer what happened.
