@@ -4,9 +4,10 @@
 
 1. Shut all windows.
 2. Turn off the coffee machines.
-3. Turn off all lights (throughout the entire office complex).
-4. Arm the security alarm by the entrance.
-5. Leave the office.
+3. Fill up the dishwasher and turn it on.
+4. Turn off all lights (throughout the entire office complex).
+5. Arm the security alarm by the entrance.
+6. Leave the office.
 
 Arming the security system requires your personal 4-digit passcode. The same code is used for disarming the alarm when entering the office.
 
