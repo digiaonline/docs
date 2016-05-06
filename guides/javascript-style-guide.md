@@ -336,6 +336,7 @@ const map = oldArray.reduce((accumulator, item) => Object.assign({}, {
 ```javascript
 /**
  * Logs an application message.
+ *
  * @param {string} message
  * @param {string} [level]
  * @return {string}
