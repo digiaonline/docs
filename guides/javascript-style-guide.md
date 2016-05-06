@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-1. [Basics](#basics)
+1. [General](#general)
 1. [Strings](#strings)
 1. [Functions](#functions)
 1. [Arrays](#arrays)
 1. [Comments](#comments)
 
-## Basics
+## General
 
 - **Set tabs to 2 spaces**
 
@@ -24,6 +24,20 @@ if (isAdmin) {
 if (isAdmin) {
   handleAdmin();
 }
+```
+
+- **Use semicolons**
+
+```javascript
+// Bad
+
+const username = 'tiff'
+return username
+
+// Good
+
+const username = 'tiff';
+return username;
 ```
 
 - **Use triple equals**
@@ -180,6 +194,50 @@ const accessToken = getAccessToken();
 const user = getUser(accessToken);
 ```
 
+- **No padding inside functions**
+
+```javascript
+// Bad
+
+function foo() {
+
+  return true;
+
+}
+
+// Good
+
+function foo() {
+  return true;
+}
+```
+
+- **No padding inside objects**
+
+```javascript
+// Bad
+
+const foo = {
+
+  bar: 'bar',
+  baz: 'baz',
+  quux() {
+    return 'quux';
+  }
+
+};
+
+// Good
+
+const foo = {
+  bar: 'bar',
+  baz: 'baz',
+  quux() {
+    return 'quux';
+  }
+};
+```
+
 ## Strings
 
 - **Use single quotes**
@@ -273,6 +331,26 @@ const foo = {
 
 ## Arrays
 
+- **Use trailing commas**
+
+```javascript
+// Bad
+
+const names = [
+  'Tiffany'
+  , 'Caleb'
+  , 'Mark'
+];
+
+// Good
+
+const names = [
+  'Tiffany',
+  'Caleb',
+  'Mark'
+];
+```
+
 - **Use Array.prototype.map instead of Array.prototype.forEach**
 
 ```javascript
@@ -327,6 +405,66 @@ oldArray.forEach(item => {
 const map = oldArray.reduce((accumulator, item) => Object.assign({}, {
   [item.id]: item
 }, accumulator), {});
+```
+
+## Type Coercion
+
+- **Use `parseInt` with a radix for numbers**
+
+```javascript
+// Bad
+
+const input = '21';
+const age = new Number(input);
+
+
+// Good
+
+const input = '21';
+const age = parseInt(input, 10);
+```
+
+- **Use `parseFloat` for floating point numbers**
+
+```javascript
+// Bad
+
+const input = '99.5';
+const percentage = new Number(input);
+
+
+// Good
+
+const input = '99.5';
+const percentage = parseFloat(input);
+```
+
+- **Use `!!` for booleans**
+
+```javascript
+// Bad
+
+const age = 0;
+const hasAge = new Boolean(age);
+
+// Good
+
+const age = 0;
+const hasAge = !!age;
+```
+
+- **Use `String` for strings**
+
+```javascript
+// Bad
+
+const age = 21;
+const text = age + '';
+
+// Good
+
+const age = 21;
+const text = String(age);
 ```
 
 ## Comments
