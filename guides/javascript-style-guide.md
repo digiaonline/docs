@@ -30,11 +30,13 @@ if (isAdmin) {
 
 ```javascript
 // Bad
+
 if (name == 'Tiffany') {}
 if (age == 21) {}
 if (name != 'Caleb') {}
 
 // Good
+
 if (name === 'Tiffany') {}
 if (age === 21) {}
 if (name !== 'Caleb') {}
@@ -44,10 +46,12 @@ if (name !== 'Caleb') {}
 
 ```javascript
 // Bad
+
 function foo(){
 }
 
 // Good
+
 function foo() {
 }
 ```
@@ -190,7 +194,7 @@ const foo = "bar";
 const foo = 'bar';
 ```
 
-- **Use template strings (backticks) for interpolation**
+- **Use template strings for interpolation**
 
 ```javascript
 // Bad
