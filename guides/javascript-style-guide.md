@@ -6,6 +6,7 @@
 1. [Strings](#strings)
 1. [Functions](#functions)
 1. [Arrays](#arrays)
+1. [Type Coercion](#type-coercion)
 1. [Comments](#comments)
 
 ## General
