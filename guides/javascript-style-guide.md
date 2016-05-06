@@ -395,7 +395,7 @@ oldArray.forEach(item => {
   if (item.isVisible) {
     newArray.push(item);
   }
-})
+});
 
 // Good
 
