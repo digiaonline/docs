@@ -355,12 +355,18 @@ const names = [
 - **Use Array.prototype.map instead of Array.prototype.forEach**
 
 ```javascript
+const oldArray = [
+  {name: 'Foo'},
+  {name: 'Bar'},
+  {name: 'Baz'}
+];
+
 // Bad
 
 const newArray = [];
 
 oldArray.forEach(item => {
-  item.foo = 'bar';
+  item.isVisible = true;
 
   newArray.push(item);
 });
@@ -368,13 +374,19 @@ oldArray.forEach(item => {
 // Good
 
 const newArray = oldArray.map(item => Object.assign({}, {
-  foo: 'bar'
+  isVisible: true
 }, item));
 ```
 
 - **Use Array.prototype.filter instead of Array.prototype.forEach**
 
 ```javascript
+const oldArray = [
+  {name: 'Foo'},
+  {name: 'Bar', isVisible: true},
+  {name: 'Baz'}
+];
+
 // Bad
 
 const newArray = [];
@@ -387,12 +399,18 @@ oldArray.forEach(item => {
 
 // Good
 
-const newArray = oldArray.filter(item => item.isPublic);
+const newArray = oldArray.filter(item => item.isVisible);
 ```
 
 - **Use Array.prototype.reduce instead of Array.prototype.forEach**
 
 ```javascript
+const array = [
+  {id: 1, name: 'Foo'},
+  {id: 2, name: 'Bar'},
+  {id: 3, name: 'Baz'}
+];
+
 // Bad
 
 const map = {};
@@ -413,58 +431,58 @@ const map = array.reduce((accumulator, item) => Object.assign({}, {
 - **Use `parseInt` with a radix for numbers**
 
 ```javascript
+const input = '21';
+
 // Bad
 
-const input = '21';
 const age = new Number(input);
 
 
 // Good
 
-const input = '21';
 const age = parseInt(input, 10);
 ```
 
 - **Use `parseFloat` for floating point numbers**
 
 ```javascript
+const input = '99.5';
+
 // Bad
 
-const input = '99.5';
 const percentage = new Number(input);
 
 
 // Good
 
-const input = '99.5';
 const percentage = parseFloat(input);
 ```
 
 - **Use `!!` for booleans**
 
 ```javascript
+const age = 0;
+
 // Bad
 
-const age = 0;
 const hasAge = new Boolean(age);
 
 // Good
 
-const age = 0;
 const hasAge = !!age;
 ```
 
 - **Use `String` for strings**
 
 ```javascript
+const age = 21;
+
 // Bad
 
-const age = 21;
 const text = age + '';
 
 // Good
 
-const age = 21;
 const text = String(age);
 ```
 
