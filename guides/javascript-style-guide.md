@@ -397,13 +397,13 @@ const newArray = oldArray.filter(item => item.isPublic);
 
 const map = {};
 
-oldArray.forEach(item => {
+array.forEach(item => {
   map[item.id] = item;
 });
 
 // Good
 
-const map = oldArray.reduce((accumulator, item) => Object.assign({}, {
+const map = array.reduce((accumulator, item) => Object.assign({}, {
   [item.id]: item
 }, accumulator), {});
 ```
