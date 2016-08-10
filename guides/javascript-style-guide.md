@@ -496,6 +496,7 @@ const text = String(age);
  *
  * @param {string} message
  * @param {string} [level]
+ *
  * @return {string}
  */
 function log(message, level = 'info') {
