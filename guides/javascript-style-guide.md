@@ -8,6 +8,7 @@
 1. [Arrays](#arrays)
 1. [Type Coercion](#type-coercion)
 1. [Comments](#comments)
+1. [Modules](#modules)
 
 ## General
 
