@@ -502,3 +502,48 @@ const text = String(age);
 function log(message, level = 'info') {
 }
 ```
+
+## Modules
+
+- **Separate third-party imports**
+
+```javascript
+// Bad
+
+import React, {Component, PropTypes} from 'react';
+import Navbar from './navbar';
+import classnames from 'classnames';
+import Button from '../common/button';
+
+// Good
+
+import React, {Component, PropTypes} from 'react';
+import classnames from 'classnames';
+
+import Navbar from './navbar';
+import Button from '../common/button';
+```
+
+- **Reference named imports**
+
+```javascript
+// Bad
+
+import React from 'react';
+
+class Navbar extends React.Component {
+    static propTypes = {
+        items: React.PropTypes.array.isRequired
+    };
+}
+
+// Good
+
+import React, {Component, PropTypes} from 'react';
+
+class Navbar extends Component {
+    static propTypes = {
+        items: PropTypes.array.isRequired
+    };
+}
+```
