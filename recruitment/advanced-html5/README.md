@@ -25,6 +25,6 @@ You will receive extra points for
 - Using a state container such as [Redux](http://redux.js.org)
 - Adding CSS transitions where appropriate
 
-Upon completing the test, please deliver the code as a zip file named `advanced-html5.zip` and send it to eric.nishio@nordsoftware.com.
+Upon completing the test, please push your code to a new public repository on [GitHub](https://github.com), and email the link to eric.nishio@nordsoftware.com.
 
 Good luck!
