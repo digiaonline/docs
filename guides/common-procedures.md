@@ -11,7 +11,7 @@
 
 Arming the security system requires your personal 4-digit passcode. The same code is used for disarming the alarm when entering the office.
 
-If you do not have a passcode, please request one from Raisa.
+If you do not have a passcode, please request one from Janne.
 
 ## What to do when you’ve triggered the security alarm by mistake
 
@@ -19,7 +19,7 @@ Call the phone number posted above the alarm interface and tell the security off
 
 ## What to do when you’re sick
 
-Inform Raisa on Slack or by email as well as any team members and clients you are currently working with.
+Inform Janne on Slack or by email as well as any team members and clients you are currently working with.
 
 As a Nord Software employee, you are eligible to seek medical attention at any of Mehiläinen’s hospitals free of charge.
 
