@@ -21,6 +21,8 @@ Call the phone number posted above the alarm interface and tell the security off
 
 Inform Janne on Slack or by email as well as any team members and clients you are currently working with.
 
+Report your sickdays to Toggl: Project/task > Sick leaves.
+
 As a Nord Software employee, you are eligible to seek medical attention at any of Mehiläinen’s hospitals free of charge.
 
 ## What to do before you leave for vacation
