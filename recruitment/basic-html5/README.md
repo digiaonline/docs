@@ -12,7 +12,7 @@ Your task is to create a small application that meets the following requirements
 - A user should have the following properties: id (string), name (string), gender (male or female), and age (number)
 - Each user row should contain a button for deleting the respective user
 
-We will provide a [design](design.pdf) and expect your application to follow it as accurately as possible.
+We will provide a [design](design.pdf) and expect your application to **follow the layout as accurately as possible**.
 
 You will receive extra points for
 
