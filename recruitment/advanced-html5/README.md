@@ -24,6 +24,7 @@ You will receive extra points for
 - Persisting the data in the browser
 - Using a state container such as [Redux](http://redux.js.org)
 - Adding CSS transitions where appropriate
+- Deploying a live build on the internet
 
 Upon completing the test, please push your code to a new public repository on [GitHub](https://github.com), and email the link to eric.nishio@nordsoftware.com.
 
