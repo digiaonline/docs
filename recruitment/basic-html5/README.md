@@ -23,6 +23,7 @@ You will receive extra points for
 - Being able to sort users by each column
 - Using a CSS framework
 - Using a CSS pre-processor
+- Deploying a live build on the internet
 
 Upon completing the test, please push your code to a new public repository on [GitHub](https://github.com), and email the link to eric.nishio@nordsoftware.com.
 
