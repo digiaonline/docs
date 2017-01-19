@@ -28,3 +28,4 @@ As a Nord Software employee, you are eligible to seek medical attention at any o
 ## What to do before you leave for vacation
 
 Create a Google calendar event that marks the start and end dates of your vacation.
+Also remember to create a vacation response in your email settings.
