@@ -9,9 +9,9 @@
 5. Arm the security alarm by the entrance.
 6. Leave the office.
 
-Arming the security system requires your personal 4-digit passcode. The same code is used for disarming the alarm when entering the office.
+To arm the security system, press the button depicting a person standing next to a house and enter the 4-digit passcode. The same code is used for disarming the alarm when entering the office.
 
-If you do not have a passcode, please request one from Janne.
+If you do not have the passcode, please request it from Janne.
 
 ## What to do when you’ve triggered the security alarm by mistake
 
