@@ -15,7 +15,7 @@ If you do not have the passcode, please request it from Janne.
 
 ## What to do when you’ve triggered the security alarm by mistake
 
-Call the phone number posted above the alarm interface and tell the security officer what happened.
+Press the SOS button on the interface to call the security company's voicemail and leave a message. Alternatively, you can directly call 010 217 9100.
 
 ## What to do when you’re sick
 
