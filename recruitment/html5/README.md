@@ -21,7 +21,7 @@ requirements:
 - Make each column sortable upon clicking on a column header
 - Write a developer-friendly installation guide
 - Deploy a live build on the internet
-- [Follow the design](https://marvelapp.com/2bda7h0/screen/25314120) **as accurately as possible**
+- **[Follow the design](https://marvelapp.com/2bda7h0/screen/25314120) as accurately as possible**
 
 Sizes and colors:
 
