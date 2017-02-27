@@ -18,9 +18,8 @@ requirements:
 - Make each participant editable by clicking on a table cell (inline editing)
 - Add support for deleting rows
 - Make each column sortable upon clicking on a column header
-- Persist the data in the browser (reloading the page should not clear participant data)
 - Write a developer-friendly installation guide
-- Deploying a live build on the internet
+- Deploy a live build on the internet
 
 We will provide a [design](https://marvelapp.com/2bda7h0/screen/25314120) and expect your application to **follow
 the layout as accurately as possible**.
