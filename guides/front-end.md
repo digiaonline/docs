@@ -52,8 +52,8 @@ Ideally, installing an application should be as simple as running
 ```
 git clone git@github.com:nordsoftware/their-project.git .
 cd their-project
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 Although these commands may seem self-explanatory to experienced front-end developers, having a clear set of step-by-step instructions reduces the time and cognitive load it takes for a new contributor to get up to speed.
@@ -69,10 +69,9 @@ Remember to keep the readme concise and readable. Include what is absolutely nec
 ```
 mkdir my-project
 cd my-project
-npm init
-npm shrinkwrap
-npm install lodash --save
-npm install gulp --save-dev
+yarn init
+yarn add react
+yarn add -D webpack
 ```
 
 ## Project structure
@@ -89,32 +88,32 @@ npm install gulp --save-dev
 ├── src
 |   ├── common
 |   │   ├── services
-|   │   │   └── auth-service.js
+|   │   │   └── authService.js
 |   │   └── styles
-|   │       └── _typography.scss
+|   │       └── grid.css
 |   ├── components
 |   │   ├── login-page
-|   │   │   ├── _login-page.scss
-|   │   │   └── login-page.js
+|   │   │   ├── LoginScreen.css
+|   │   │   └── LoginScreen.js
 |   │   └── navbar
-|   │       ├── _navbar.scss
-|   │       └── navbar.js
+|   │       ├── Navbar.css
+|   │       └── Navbar.js
 |   ├── config
 |   │   └── api.js
-|   ├── index.js
-|   └── index.scss
+|   └── index.js
 ├── .editorconfig
 ├── .eslintrc
 ├── .gitignore
 ├── package.json
-└── README.md
+├── README.md
+└── yarn.lock
 ```
 
 A front-end project should contain at least two key directories: `src` and `dist`, referring to *source* and *distribution*, respectively. The source directory is where we save the code we’ve written, whereas the distribution directory contains the final executable code after compiling and building the application from source. You should not add `dist` to version control. An additional `assets` directory may be created to house images, fonts, audio files, and other presentational resources.
 
-Files and directories in `src` should be written in kebab-case and all lowercase letters (e.g. `auth-service.js` but not `AuthService.js`), with the exception of partial SCSS files that require a leading underscore. Naming all files and directories in all lowercase letters eliminates conflicts when renaming versioned files and switching between lowercase and uppercase characters.
+Files and directories in `src` should be written in camel case (e.g. `authService.js`). A JavaScript module that exports a class should be capitalized (e.g. `LoginScreen.js`). Also, a CSS module pertaining to a component should respect the same naming convention as the component class (e.g. `LoginScreen.css`).
 
-## Bower vs npm
+## Bower vs npm vs Yarn
 
 Bower was formerly used by front-end projects.
 
@@ -124,23 +123,25 @@ Generally speaking, Bower is used by older JavaScript applications where separat
 
 Owing to the popularity of Webpack and Browserify, npm has become the go-to package manager for front-end applications as well. The universalization of npm modules now allows front-end developers to embrace the same conveniences that have made the Node ecosystem great. The encapsulated nature of modules brings greater clarity and improved structure to applications.
 
-If you're starting a new project, you should use npm.
+[Yarn](https://yarnpkg.com/en/) improves on npm by providing an offline cache and a real lockfile (`yarn.lock`) for locking down exact package versions.
+
+If you're starting a new project, you should use Yarn.
 
 ## Typical development workflow
 
 ```
 git pull --rebase
-npm install
-npm start
+yarn install
+yarn start
 git add .
 git commit -m "Add feature"
 git push origin master
-npm run deploy
+yarn deploy
 ```
 
 ## Starting a development server
 
-Every project should include a *start* script that lifts up a development environment when a developer executes `npm start` on the command-line.
+Every project should include a *start* script that lifts up a development environment when a developer executes `yarn start` on the command-line.
 
 Scripts should only reference local npm modules that are included as dependencies (avoid referencing globally installed packages):
 
@@ -209,18 +210,12 @@ Consider the following function variations:
 /**
  * Fetches blog posts by a user.
  */
-function blogPosts(id) {
+const blogPosts = (id: string): Promise<Array<BlogPost>> =>
   // Fetches blog posts from the API where the user ID is ‘id’
-  return service.posts(id);
-}
+  service.posts(id)
 
-/**
- * @param {string} userId
- * @return {Promise}
- */
-function fetchBlogPostsByUserId(userId) {
-  return blogPostApi.findAll({userId});
-}
+const fetchBlogPostsByUserId = (userId: string): Promise<Array<BlogPost>> =>
+  blogPostApi.findAll({userId})
 ```
 
 Both functions are supposed to fetch blog posts from the API with the given user ID. The only difference is how the functions have been laid out.
