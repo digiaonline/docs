@@ -19,11 +19,13 @@ Press the SOS button on the interface to call the security company's voicemail a
 
 ## What to do when you’re sick
 
-Inform Janne on Slack or by email as well as any team members and clients you are currently working with.
-
-Report your sickdays to Toggl: Project/task > Sick leave.
+1. Inform your team members and clients.
+2. Notify Nord Software at #absences on Slack.
+3. Mark your absence on Toggl (project/task: **Sick leave**).
 
 As a Nord Software employee, you are eligible to seek medical attention at any of Mehiläinen’s hospitals free of charge.
+
+Please avoid coming to the office if you are sick—it's good for you and for your buddies!
 
 ## What to do before you leave for vacation
 
