@@ -25,7 +25,7 @@ Press the SOS button on the interface to call the security company's voicemail a
 
 As a Nord Software employee, you are eligible to seek medical attention at any of Mehiläinen’s hospitals free of charge.
 
-Please avoid coming to the office if you are sick—it's good for you and for your buddies!
+Please avoid coming to the office if you are sick—it’s good for you and for your buddies!
 
 ## What to do before you leave for vacation
 
