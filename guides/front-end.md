@@ -27,8 +27,6 @@ As a result, consumer use cases (e.g. requesting the most popular blog posts or 
 - [GitHub](https://github.com)
 - [Trello](https://trello.com)
 - [1Password](https://agilebits.com/onepassword)
-- [Vagrant](https://www.vagrantup.com)
-- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 ## Accounts and licenses
 
