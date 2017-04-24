@@ -20,6 +20,7 @@ As a result, consumer use cases (e.g. requesting the most popular blog posts or 
 - [SourceTree](https://www.sourcetreeapp.com)
 - [iTerm 2](https://www.iterm2.com)
 - Node.js (install with [nvm](https://github.com/creationix/nvm))
+- [Yarn](https://yarnpkg.com)
 - [Postman](https://www.getpostman.com)
 - [Gmail](http://www.gmail.com)
 - [Slack](https://nordsoftware.slack.com)
