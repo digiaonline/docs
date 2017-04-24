@@ -246,5 +246,5 @@ Hosting is a decision that should take the rest of the application architecture 
 - [react-boilerplate](https://github.com/nordsoftware/react-boilerplate) A template for jump-starting a React project
 - [Egghead.io](https://egghead.io) Plenty of bite-sized React and Redux tutorials
 - [JavaScript Weekly](http://javascriptweekly.com) A weekly email round-up of JavaScript news and articles
-- [React Newsletter](http://reactjsnewsletter.com) A weekly newsletter about React.
+- [React Newsletter](http://reactjsnewsletter.com) A weekly newsletter about React
 - [JavaScript Jabber](https://devchat.tv/js-jabber) A podcast about all things JavaScript
