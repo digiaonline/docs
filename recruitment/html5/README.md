@@ -1,12 +1,12 @@
 # HTML5 test
 
 This is a preliminary test to determine the technical ability of developers
-applying for front-end positions at Nord Software.
+applying for front-end positions at Digia.
 
 Before starting, please read carefully through the instructions below. You are
 free to look up any information online and offline and spend as much time on
 the test as you deem necessary. Please direct any questions to Eric Nishio at
-eric@nordsoftware.com.
+eric.nishio@digia.com.
 
 Your task is to create a small signup form and a list of participants with
 [React](https://facebook.github.io/react/) that meets the following
@@ -23,6 +23,6 @@ requirements:
 - Deploy a live build on the internet
 - **[Follow the design](https://marvelapp.com/2bda7h0/screen/25314120) as accurately as possible** ([sizes and colors](styleguide.png))
 
-Upon completing the test, please push your code to a new public repository on [GitHub](https://github.com), and email the link to eric@nordsoftware.com.
+Upon completing the test, please push your code to a new public repository on [GitHub](https://github.com), and email the link to eric.nishio@digia.com.
 
 Good luck!
