@@ -23,6 +23,6 @@ requirements:
 - Deploy a live build on the internet
 - **[Follow the design](https://marvelapp.com/2bda7h0/screen/25314120) as accurately as possible** ([sizes and colors](styleguide.png))
 
-Upon completing the test, please push your code to a new public repository on [GitHub](https://github.com), and email the link to eric.nishio@digia.com.
+Upon completing the test, please push your code to a new public repository on [GitHub](https://github.com), deploy/publish the application, and email both links to eric.nishio@digia.com.
 
 Good luck!
