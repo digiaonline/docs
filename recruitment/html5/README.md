@@ -12,16 +12,17 @@ Your task is to create a small signup form and a list of participants with
 [React](https://facebook.github.io/react/) that meets the following
 requirements:
 
-- Use [Create React App](https://github.com/facebookincubator/create-react-app) to scaffold your application
-- Generate 20 participants that contain randomized values for the following properties: *id*, *name*, *email address*, and *phone number*
-- Render a table that displays the participants on individual rows
-- Create a form for adding new participants to the table (remember to validate the form)
-- Make each participant editable by clicking on a table cell (inline editing)
-- Add support for deleting rows
-- Make each column sortable upon clicking on a column header
-- Write a developer-friendly installation guide on how to run the app
-- Deploy a live build on the internet
-- **[FOLLOW THE DESIGN](https://marvelapp.com/2bda7h0/screen/25314120) AS ACCURATELY AND PIXEL-PERFECTLY AS YOU CAN** ([sizes and colors](styleguide.png))
+1. Use [Create React App](https://github.com/facebookincubator/create-react-app) to scaffold your application
+2. Generate 20 participants that contain randomized values for the following properties: *id*, *name*, *email address*, and *phone number*
+3. Render a table that displays the participants on individual rows
+4. Create a form for adding new participants to the table (remember to validate the form)
+5. Make each participant editable by clicking on a table cell (inline editing)
+6. Add support for deleting rows
+7. Make each column sortable upon clicking on a column header
+8. Write a developer-friendly installation guide on how to run the app
+9. Push your code to a public [GitHub](https://github.com) repository
+10. Deploy a live build on the internet
+11. **[FOLLOW THE DESIGN](https://marvelapp.com/2bda7h0/screen/25314120) AS ACCURATELY AND PIXEL-PERFECTLY AS YOU CAN** ([sizes and colors](styleguide.png))
 
 Upon completing the test, please push your code to a new public repository on [GitHub](https://github.com), deploy a live build on the internet, and email both links to eric.nishio@digia.com.
 
