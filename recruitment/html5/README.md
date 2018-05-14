@@ -24,6 +24,6 @@ requirements:
 10. Deploy a live build on the internet
 11. **[FOLLOW THE DESIGN](https://marvelapp.com/2bda7h0/screen/25314120) AS ACCURATELY AS YOU CAN** ([sizes and colors](styleguide.png))
 
-Upon completing the test, please push your code to a new public repository on [GitHub](https://github.com), deploy a live build on the internet, and email both links to eric.nishio@digia.com. **PLEASE REFRAIN FROM INCLUDING ANY FILE ATTACHMENTS AS THEY WILL CAUSE YOUR EMAIL TO END UP IN MY SPAM FOLDER.**
+Upon completing the test, please push your code to a new public repository on [GitHub](https://github.com), deploy a live build on the internet, and email both links to eric.nishio@digia.com. **Please refrain from including any file attachments as they will cause your email to end up in my spam folder.**
 
 Good luck!
