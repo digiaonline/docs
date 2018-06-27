@@ -22,7 +22,7 @@ requirements:
 8. Write a developer-friendly installation guide on how to run the app
 9. Push your code to a public [GitHub](https://github.com) repository
 10. Deploy a live build on the internet
-11. **[FOLLOW THE DESIGN](styleguide.png) AS ACCURATELY AS YOU CAN**
+11. **[FOLLOW THE DESIGN](styleguide.png) AS ACCURATELY AS YOU CAN** (as for the logo, feel free to render a blank square)
 
 Upon completing the test, please push your code to a new public repository on [GitHub](https://github.com), deploy a live build on the internet, and email both links to eric.nishio@digia.com. **Please refrain from including any file attachments as they will cause your email to end up in my spam folder.**
 
