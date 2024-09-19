@@ -4,7 +4,7 @@ This is a preliminary test to determine the technical ability of developers appl
 
 Before starting, please read carefully through the instructions below. You are free to look up any information online and offline and spend as much time on the test as you deem necessary. Please direct any questions to Eric Nishio at eric.nishio@digia.com.
 
-Your objective is to create a small signup form and a list of participants with Next.js, meeting the following requirements:
+Your objective is to create a small signup form and a list of participants with Next.js and TypeScript, meeting the following requirements:
 
 1. Use [Next.js]([https://nextjs.org) to scaffold your application using TypeScript
 2. Generate 20 participants that contain randomized values for the following properties: *id*, *name*, *email address*, and *phone number*
