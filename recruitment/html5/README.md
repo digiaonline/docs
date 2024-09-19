@@ -6,7 +6,7 @@ Before starting, please read carefully through the instructions below. You are f
 
 Your objective is to create a small signup form and a list of participants with Next.js and TypeScript, meeting the following requirements:
 
-1. Use [Next.js]([https://nextjs.org) to scaffold your application using TypeScript
+1. Use [Next.js](https://nextjs.org) to scaffold your application using TypeScript
 2. Generate 20 participants that contain randomized values for the following properties: *id*, *name*, *email address*, and *phone number*
 3. Render a table that displays the participants on individual rows
 4. Create a form for adding new participants to the table (remember to validate the form)
